@@ -73,8 +73,8 @@ div#formcol1 input {
 }
 
 input[type="submit"] {
-	background-color: #007BFF;
-	color: #ffffff;
+	background-color: #429EFF;
+	color: #000000;
 	border: none;
 	padding: 0.5rem 1rem;
 	font-size: 1rem;
@@ -85,7 +85,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-	background-color: #0056b3;
+	color: #ffffff;
 }
 
 fieldset {

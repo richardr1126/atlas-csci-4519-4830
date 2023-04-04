@@ -55,3 +55,9 @@ ul {
 h2.card-title {
   font-size: 1.35rem;
 }
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

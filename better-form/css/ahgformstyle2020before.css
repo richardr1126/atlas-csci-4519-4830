@@ -10,6 +10,7 @@ body {
 
 #wrapper {
 	width: 60%;
+	max-width: 40rem;
 	margin: 2% auto;
 	background-color: #ffffff;
 	padding: 2rem;

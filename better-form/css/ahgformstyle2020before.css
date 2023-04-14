@@ -1,0 +1,154 @@
+@charset "ISO-8859-1";
+
+/* form styling */
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #f5f5f5;
+	color: #333;
+}
+
+#wrapper {
+	width: 60%;
+	margin: 2% auto;
+	background-color: #ffffff;
+	padding: 2rem;
+	padding-bottom: 1rem;
+	padding-top: 0.75rem;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formcol {
+	float: left;
+	width: 100%;
+}
+
+.formcol label {
+	float: left;
+	text-align: right;
+	display: block;
+	clear: left;
+	padding-right: 0.5rem;
+}
+
+.formcol ul li {
+	list-style-type: none;
+	margin-left: -2em;
+	margin-bottom: .4em;
+}
+
+/* text or email */
+
+.formcol input[type="text"],
+.formcol input[type="email"],
+.formcol input[type="tel"] {
+	margin-left: 1.5em;
+	text-align: left;
+	display: block;
+	clear: right;
+	background-color: #F4F4F4;
+	border: 1px solid #CCC;
+	padding: .3em;
+	border-radius: 3px;
+}
+
+/* textarea */
+.formcol textarea {
+	text-align: left;
+	display: block;
+	clear: right;
+	background-color: #F4F4F4;
+	border: 1px solid #CCC;
+	margin-top: 0.5rem;
+	padding: .3em;
+	border-radius: 3px;
+	width: 100%;
+}
+
+/* div for radio buttons and check boxes */
+
+#multchoice {
+  clear: left;
+  padding-top: 1rem;
+}
+
+#multchoice span {
+  float: left;
+  margin: 0 1em;
+	margin-bottom: 2rem;
+}
+
+#multchoice label {
+  float: left;
+  padding: 0px;
+}
+
+#bio {
+	clear: left;
+}
+
+.submit-button {
+	clear: left;
+	padding-top: 1rem;
+	width: 70%;
+}
+
+input[type="submit"] {
+	background: linear-gradient(150deg, #00bfff, #4da6ff, #3838ff, #8a2be2);
+  background-size: 300%;
+	color: #000000;
+	border: none;
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: color 0.25s, background-position 0.75s;
+}
+
+input[type="submit"]:hover {
+	color: #ffffff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+	transform: scale(1.02);
+	transition: color 0.25s, background-position 1s; 
+	background-position: right;
+}
+
+fieldset {
+	padding: 1em;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+}
+
+legend {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.form-instructions {
+	font-style: italic;
+	color: #575757;
+}
+
+select:focus,
+select:active,
+input:focus,
+input:active,
+input:focus+label,
+input:active+label,
+label[for]:focus,
+label[for]:active {
+  outline: 2px solid #0056b3 !important; /* Updated outline */
+}
+
+input:focus,
+input:active {
+  outline-offset: 1px; /* Add a small gap between the input and the outline */
+}
+
+.formcol input.reqfield {
+	background:#ffd3d3;
+}

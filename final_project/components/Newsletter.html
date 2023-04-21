@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <title>Newsletter Signup Form</title>
+  <style>
+    .form-container {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    .form-title {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box container is-max-desktop form-container" style="margin-top: 2rem; padding: 1rem;">
+    <h1 style="margin-top: 0px;" class="title form-title has-text-centered">SUBSCRIBE TO RMRG NEWSLETTER</h1>
+    <p class="subtitle has-text-centered" style="font-size: 1rem; margin-bottom: 1rem;">Sign up with your email address to receive news and updates.</p>
+    <form>
+      <div class="field is-horizontal">
+        <div class="field-body is-align-items-end">
+          <div class="field">
+            <label class="label" for="name">Name</label>
+            <div class="control">
+              <input class="input" type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="email">Email</label>
+            <div class="control has-icons-left">
+              <input class="input" type="email" id="email" name="email" placeholder="Your email address" required>
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+            </div>
+          </div>
+          <div class="control" >
+            <button class="button is-black" type="submit">Sign up</button>
+          </div>
+        </div>
+      </div>
+      <p class="subtitle has-text-centered" style="font-size: 0.75rem;">We respect your privacy and will not share your information.</p>
+      
+    </form>
+  </div>
+
+</body>
+
+</html>
